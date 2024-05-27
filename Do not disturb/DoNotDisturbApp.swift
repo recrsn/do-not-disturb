@@ -8,10 +8,10 @@
 import SwiftUI
 
 @main
-struct Junk_ReportApp: App {
-    var body: some Scene {
-        WindowGroup {
-            ContentView()
-        }
+struct DoNotDisturbApp: App {
+  var body: some Scene {
+    WindowGroup {
+      ContentView()
     }
+  }
 }
