@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		2D69A9442C02838C00AD5D0E /* SpamCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D69A9432C02838C00AD5D0E /* SpamCategory.swift */; };
 		2D69A9462C03715500AD5D0E /* CarrierDndLinksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D69A9452C03715500AD5D0E /* CarrierDndLinksView.swift */; };
+		2DB28DFB2C045A1E005F0CB2 /* Do_not_disturb_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB28DFA2C045A1E005F0CB2 /* Do_not_disturb_UITests.swift */; };
+		2DB28DFD2C045A1E005F0CB2 /* Do_not_disturb_UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB28DFC2C045A1E005F0CB2 /* Do_not_disturb_UITestsLaunchTests.swift */; };
+		2DB28E042C045A6D005F0CB2 /* SnapshotHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB28E032C045A6D005F0CB2 /* SnapshotHelper.swift */; };
 		2DD3AB392C01B603000902AA /* DoNotDisturbApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD3AB382C01B603000902AA /* DoNotDisturbApp.swift */; };
 		2DD3AB3B2C01B603000902AA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD3AB3A2C01B603000902AA /* ContentView.swift */; };
 		2DD3AB3D2C01B604000902AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DD3AB3C2C01B604000902AA /* Assets.xcassets */; };
@@ -21,6 +24,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		2DB28DFE2C045A1E005F0CB2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2DD3AB2D2C01B603000902AA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2DD3AB342C01B603000902AA;
+			remoteInfo = "Do not disturb";
+		};
 		2DD3AB522C01B6AD000902AA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 2DD3AB2D2C01B603000902AA /* Project object */;
@@ -47,6 +57,10 @@
 /* Begin PBXFileReference section */
 		2D69A9432C02838C00AD5D0E /* SpamCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpamCategory.swift; sourceTree = "<group>"; };
 		2D69A9452C03715500AD5D0E /* CarrierDndLinksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarrierDndLinksView.swift; sourceTree = "<group>"; };
+		2DB28DF82C045A1E005F0CB2 /* Do not disturb UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Do not disturb UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DB28DFA2C045A1E005F0CB2 /* Do_not_disturb_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Do_not_disturb_UITests.swift; sourceTree = "<group>"; };
+		2DB28DFC2C045A1E005F0CB2 /* Do_not_disturb_UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Do_not_disturb_UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2DB28E032C045A6D005F0CB2 /* SnapshotHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SnapshotHelper.swift; path = fastlane/SnapshotHelper.swift; sourceTree = SOURCE_ROOT; };
 		2DD3AB352C01B603000902AA /* Do not disturb.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Do not disturb.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DD3AB382C01B603000902AA /* DoNotDisturbApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoNotDisturbApp.swift; sourceTree = "<group>"; };
 		2DD3AB3A2C01B603000902AA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -60,6 +74,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		2DB28DF52C045A1E005F0CB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2DD3AB322C01B603000902AA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -77,11 +98,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2DB28DF92C045A1E005F0CB2 /* Do not disturb UITests */ = {
+			isa = PBXGroup;
+			children = (
+				2DB28E032C045A6D005F0CB2 /* SnapshotHelper.swift */,
+				2DB28DFA2C045A1E005F0CB2 /* Do_not_disturb_UITests.swift */,
+				2DB28DFC2C045A1E005F0CB2 /* Do_not_disturb_UITestsLaunchTests.swift */,
+			);
+			path = "Do not disturb UITests";
+			sourceTree = "<group>";
+		};
 		2DD3AB2C2C01B603000902AA = {
 			isa = PBXGroup;
 			children = (
 				2DD3AB372C01B603000902AA /* Do not disturb */,
 				2DD3AB4B2C01B6AD000902AA /* Do not disturb Extension */,
+				2DB28DF92C045A1E005F0CB2 /* Do not disturb UITests */,
 				2DD3AB362C01B603000902AA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -91,6 +123,7 @@
 			children = (
 				2DD3AB352C01B603000902AA /* Do not disturb.app */,
 				2DD3AB4A2C01B6AD000902AA /* Do not disturb Extension.appex */,
+				2DB28DF82C045A1E005F0CB2 /* Do not disturb UITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -130,6 +163,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		2DB28DF72C045A1E005F0CB2 /* Do not disturb UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2DB28E022C045A1E005F0CB2 /* Build configuration list for PBXNativeTarget "Do not disturb UITests" */;
+			buildPhases = (
+				2DB28DF42C045A1E005F0CB2 /* Sources */,
+				2DB28DF52C045A1E005F0CB2 /* Frameworks */,
+				2DB28DF62C045A1E005F0CB2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2DB28DFF2C045A1E005F0CB2 /* PBXTargetDependency */,
+			);
+			name = "Do not disturb UITests";
+			productName = "Do not disturb UITests";
+			productReference = 2DB28DF82C045A1E005F0CB2 /* Do not disturb UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		2DD3AB342C01B603000902AA /* Do not disturb */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2DD3AB432C01B604000902AA /* Build configuration list for PBXNativeTarget "Do not disturb" */;
@@ -176,6 +227,10 @@
 				LastSwiftUpdateCheck = 1530;
 				LastUpgradeCheck = 1530;
 				TargetAttributes = {
+					2DB28DF72C045A1E005F0CB2 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 2DD3AB342C01B603000902AA;
+					};
 					2DD3AB342C01B603000902AA = {
 						CreatedOnToolsVersion = 15.3;
 					};
@@ -199,11 +254,19 @@
 			targets = (
 				2DD3AB342C01B603000902AA /* Do not disturb */,
 				2DD3AB492C01B6AD000902AA /* Do not disturb Extension */,
+				2DB28DF72C045A1E005F0CB2 /* Do not disturb UITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		2DB28DF62C045A1E005F0CB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2DD3AB332C01B603000902AA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -225,6 +288,16 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		2DB28DF42C045A1E005F0CB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DB28DFB2C045A1E005F0CB2 /* Do_not_disturb_UITests.swift in Sources */,
+				2DB28DFD2C045A1E005F0CB2 /* Do_not_disturb_UITestsLaunchTests.swift in Sources */,
+				2DB28E042C045A6D005F0CB2 /* SnapshotHelper.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2DD3AB312C01B603000902AA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -248,6 +321,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		2DB28DFF2C045A1E005F0CB2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2DD3AB342C01B603000902AA /* Do not disturb */;
+			targetProxy = 2DB28DFE2C045A1E005F0CB2 /* PBXContainerItemProxy */;
+		};
 		2DD3AB532C01B6AD000902AA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 2DD3AB492C01B6AD000902AA /* Do not disturb Extension */;
@@ -267,6 +345,52 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		2DB28E002C045A1E005F0CB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q499TD2823;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.inputforge.Do-not-disturb-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_TARGET_NAME = "Do not disturb";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		2DB28E012C045A1E005F0CB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q499TD2823;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.inputforge.Do-not-disturb-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_TARGET_NAME = "Do not disturb";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
 		2DD3AB412C01B604000902AA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -392,6 +516,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Do not disturb/Preview Content\"";
@@ -411,8 +536,9 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.inputforge.dnd;
+				PRODUCT_BUNDLE_IDENTIFIER = com.inputforge.dnd.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
@@ -420,6 +546,7 @@
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
+				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
 		};
@@ -429,6 +556,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Do not disturb/Preview Content\"";
@@ -448,8 +576,9 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.inputforge.dnd;
+				PRODUCT_BUNDLE_IDENTIFIER = com.inputforge.dnd.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
@@ -457,6 +586,7 @@
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
+				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;
 		};
@@ -477,7 +607,7 @@
 					"@executable_path/../../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.inputforge.dnd.DND-Report-Extension";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.inputforge.dnd.app.report-extension";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -487,6 +617,7 @@
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
+				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
 		};
@@ -507,7 +638,7 @@
 					"@executable_path/../../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.inputforge.dnd.DND-Report-Extension";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.inputforge.dnd.app.report-extension";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -517,12 +648,22 @@
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
+				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		2DB28E022C045A1E005F0CB2 /* Build configuration list for PBXNativeTarget "Do not disturb UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DB28E002C045A1E005F0CB2 /* Debug */,
+				2DB28E012C045A1E005F0CB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2DD3AB302C01B603000902AA /* Build configuration list for PBXProject "Do not disturb" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
